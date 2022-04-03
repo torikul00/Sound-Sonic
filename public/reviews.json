@@ -1,0 +1,39 @@
+[
+    {
+      "id": "1",
+      "name": "Ramona Tyler",
+      "rating" : "4.7",
+      "image" : "https://randomuser.me/api/portraits/men/64.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Ross Charles",
+      "rating" : "4.4",
+      "image" : "https://randomuser.me/api/portraits/men/76.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Ellison Garrison",
+      "rating" : "4.6",
+      "image" : "https://randomuser.me/api/portraits/women/74.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Winifred Buckner",
+      "rating" : "4.8",
+      "image" : "https://randomuser.me/api/portraits/men/60.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Mendoza Dorsey",
+      "rating" : "4.5",
+      "image": "https://randomuser.me/api/portraits/women/94.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Joyner Sherman",
+      "rating" : "4.7",
+      "image": "https://randomuser.me/api/portraits/men/47.jpg"
+    }
+
+]
