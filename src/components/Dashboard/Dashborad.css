@@ -1,0 +1,10 @@
+.charts {
+  display: flex;
+  height: calc(100vh - 60px);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+.charts h1 {
+  margin: 20px 20px;
+}

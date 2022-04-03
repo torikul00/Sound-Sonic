@@ -11,11 +11,11 @@ const ReviewCard = ({ review }) => {
             <img src={image} alt="" />
             <h3>{name}</h3>
                 
-                <FontAwesomeIcon className='start' icon={faStar} />
-                <FontAwesomeIcon className='start' icon={faStar} />
-                <FontAwesomeIcon className='start' icon={faStar} />
-                <FontAwesomeIcon className='start' icon={faStar} />
-                <FontAwesomeIcon className='start' icon={faStar} /><br />
+                <FontAwesomeIcon className='star' icon={faStar} />
+                <FontAwesomeIcon className='star' icon={faStar} />
+                <FontAwesomeIcon className='star' icon={faStar} />
+                <FontAwesomeIcon className='star' icon={faStar} />
+                <FontAwesomeIcon className='star' icon={faStar} /><br />
                 <small> Rating : {rating}</small> 
             <p>{ comment}</p>
             </div>

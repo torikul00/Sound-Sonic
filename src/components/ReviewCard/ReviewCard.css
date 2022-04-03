@@ -8,6 +8,9 @@
     box-shadow: 0px 0px 24px -11px rgba(0, 0, 0, 0.75);
 }
 
-.start {
+.star {
     color: goldenrod;
+}
+.user-info p,small {
+    color: rgba(0, 0, 0, 0.644);
 }
