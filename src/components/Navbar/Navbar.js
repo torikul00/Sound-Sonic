@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
@@ -9,11 +10,12 @@ const Navbar = () => {
                     <h2 className="brand-name">SONIC SOUND</h2>
                 </div>
                 <div className="links">
-                    <a href="/">HOME</a>
-                    <a href="/dashboard">DASHBOARD</a>
-                    <a href="/reviews">REVIEWS</a>
-                    <a href="/blogs">BLOGS</a>
-                    <a href="about">ABOUT</a>
+                    <NavLink className={({ isActive }) => isActive ? 'active-link' : 'link' } to="/">HOME</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? 'active-link' : 'link'} to="/dashboard">DASHBOARD
+                    </NavLink>
+                    <NavLink className={({ isActive }) => isActive ? 'active-link' : 'link' } to="/reviews">REVIEWS</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? 'active-link' : 'link' } to="/blogs">BLOGS</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? 'active-link' : 'link' } to="about">ABOUT</NavLink>
 
                 </div>
             </nav>

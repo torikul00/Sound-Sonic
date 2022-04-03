@@ -1,0 +1,8 @@
+.notFound{
+    width: 500px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
