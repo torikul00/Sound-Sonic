@@ -1,13 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const navigate = useNavigate()
   return (
-    <div>
+   
       <nav>
+        
         <div>
-          <h2 className="brand-name">SONIC SOUND</h2>
+          <h2 onClick={()=>navigate('/')} className="brand-name">SONIC SOUND</h2>
         </div>
         <div className="links">
           <NavLink
@@ -34,15 +36,10 @@ const Navbar = () => {
           >
             BLOGS
           </NavLink>
-          <NavLink
-            className={({ isActive }) => (isActive ? "active-link" : "link")}
-            to="about"
-          >
-            ABOUT
-          </NavLink>
+         
         </div>
       </nav>
-    </div>
+   
   );
 };
 

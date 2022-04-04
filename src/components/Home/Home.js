@@ -10,12 +10,13 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <>
+    <header>
       <div className="home-container">
         <div>
           <h1 className="title">
             WELCOME TO SONIC SOUND <br /> BEST COLLECTIONS FOR YOU
           </h1>
+          <p className="desc">Hey ! We are waiting for you . Every friday  10% off for you . Get  the best and good quality products with low price ! keep in touch with us . Buy one with Visa card and get one totally free . keep smiling and keep buying from SONIC SOUND </p>
           <button className="button">START BUYING NOW</button>
         </div>
         <div>
@@ -31,7 +32,7 @@ const Home = () => {
       <div className="more-button">
         <button onClick={() => navigate("/reviews")}>More Reviews</button>
       </div>
-    </>
+    </header>
   );
 };
 

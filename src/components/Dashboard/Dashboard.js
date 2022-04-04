@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, BarChart, Legend, Bar } from 'recharts';
+import {useNavigate} from 'react-router-dom'
 import './Dashborad.css'
 const Dashboard = () => {
   const [data, setData] = useState([])
+  const navigate = useNavigate()
   useEffect(() => {
     fetch('data.json')
       .then(res => res.json())
@@ -14,7 +16,7 @@ const Dashboard = () => {
       <div className="charts">
 
         <div className='line-chart'>
-          <h1>Monthly Average Sell </h1>
+          <h1 className='sell'> - Monthly Average Sell </h1>
           <LineChart width={500} height={300} data={data}>
             <Line dataKey="sell" stroke="#557b83" />
             <CartesianGrid stroke="#ccc" />
@@ -25,7 +27,7 @@ const Dashboard = () => {
         </div>
 
         <div className="bar-chart">
-          <h1>Investment VS Revenue</h1>
+          <h1 className='sell'> - Investment VS Revenue</h1>
           <BarChart width={500} height={320} data={data}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="investment" />
@@ -37,6 +39,8 @@ const Dashboard = () => {
         </div>
 
       </div>
+
+      <button onClick={()=>navigate('/home')} className='back-home-button'>Back to home </button>
     </div>
   );
 };

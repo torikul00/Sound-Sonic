@@ -1,0 +1,12 @@
+.blogs{
+    margin: 50px 100px;
+}
+.blog{
+
+    margin: 30px 0px;
+    padding: 30px;
+}
+.blog article {
+    color: rgba(0, 0, 0, 0.664);
+    letter-spacing: 0.4px;
+}

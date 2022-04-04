@@ -4,3 +4,15 @@
     margin: 50px 100px;
     grid-gap: 20px;
 }
+.back-home-button{
+    padding: 10px 30px;
+    background-color: #557b83;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
