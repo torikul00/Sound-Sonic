@@ -1,5 +1,5 @@
 # Welcome to Sound Sonic !
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit our website  -  [ here](https://sound-sonic-torikul.netlify.app/)
 
 ## About my project !
 * Sound Sonic is online store for buying sound box .
